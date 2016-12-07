@@ -9,3 +9,18 @@ const NoteSchema = new mongoose.Schema({
 
 
 const Note = mongoose.model('Note', NoteSchema);
+
+
+
+function getAllNotes(req, res) {
+    Note.find()
+        .then(function(note) {
+            res.json(note)
+        })
+      }
+
+
+      module.exports = {
+          getAllNotes: getAllNotes,
+
+      }
