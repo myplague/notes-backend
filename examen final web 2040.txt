@@ -1,0 +1,42 @@
+
+Pregunta 1
+
+
+db.test.insert({x:2,y:"apple"})
+
+
+
+
+Pregunta 2
+
+librery.boock.find().pretty()
+
+
+
+
+
+1 A query may include a ___union________ that specifies the fields from the matching documents to return
+
+
+2 MongoDB stores all documents in
+
+collections
+
+
+
+3 If you want to change an existing collection in mongodb, you must use the following command:
+
+update
+
+
+4 Given a collection named students, where the documents have first_name and last_name properties,
+ how would you write a mondogb query that looks up all students with the last name "Castro"?
+
+
+db.students.find([last_name:'Castro'])
+
+
+
+
+
+
